@@ -70,7 +70,7 @@ APE.Client.prototype.load = function(config){
 	config.domain = config.domain || APE.Config.domain || document.domain;
 	config.scripts = config.scripts || APE.Config.scripts;
 	config.server = config.server || APE.Config.server;
-	config.secure = config.sercure || APE.Config.secure;
+	config.secure = config.secure || APE.Config.secure;
 
 	config.init = function(core){
 		this.core = core;
